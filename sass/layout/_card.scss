@@ -1,0 +1,56 @@
+.card{
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 25rem;
+
+}
+//card body
+.card-body{
+    padding: 2rem;
+    text-align: center;
+    & > * {
+        padding-bottom: 1rem ;
+    }
+}
+// card title text
+.card-title{
+    font-size: 1.7rem;
+    font-weight: 600;
+
+}
+.card-text{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: $color-card-text;
+    line-height: 2;
+    padding: 0 2.5rem;
+}
+//card price box style
+.card-priceBox{
+    padding: 1rem;
+    background-color: $color-pricebox;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1.2rem;
+    margin-bottom: 1rem;
+
+    &__left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &--icon{
+            padding-right: 1rem;
+        }
+        &--text{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+
+
+    }
+
+
+}

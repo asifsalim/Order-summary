@@ -9,7 +9,21 @@
 html{
     box-sizing: border-box;
     font-size: 62.5%;
+
+
+
 }
 body{
-    background-color: #f8f9fa;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: $color-background-top;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    
+
 }

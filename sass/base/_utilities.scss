@@ -1,0 +1,16 @@
+.icon-music{
+    width:4rem;
+}
+.change-link:hover,
+.change-link:active{
+    color: $color-hover-active;
+}
+.cancel-link:link,
+.cancel-link:active{
+    text-decoration: none;
+    color: $color-card-text;
+    &:hover,
+    &:active{
+        color: $color-hover-active;
+    }
+}
